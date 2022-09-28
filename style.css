@@ -11,6 +11,7 @@ html{
 }
 :root{
     --main-color : #047AED;
+    --light-color : #ededed;
 }
 a{
     text-decoration: none;
@@ -77,7 +78,6 @@ body{
     padding: 30px;
     height: 400px;
     background-color: var(--main-color);
-    overflow: hidden;
     color: white;
     position: relative;
     overflow: visible;
@@ -86,6 +86,7 @@ body{
     margin: 20px 0;
 }
 .showcase .grid{
+    padding-left: 20px;
     grid-template-columns: 55% 45%;
     gap: 30px;
     
@@ -223,7 +224,7 @@ body{
 
 .features-head,.features-main{
     color: white;
-    padding: 3rem;
+    padding: 2rem;
 }
 .features-head img{
     width: 200px;
@@ -250,7 +251,7 @@ body{
 }
 
 .docs-main .bg-light{
-    background-color: rgb(243, 243, 243);;
+    background-color: var(--light-color);
     align-self: flex-start;
 }
 .docs-main h3{

@@ -7,7 +7,7 @@
     background-color: #333;
 }
 .bg-light{
-    background-color: rgb(243, 243, 243);
+    background-color: #ededed;
 }
 .font-p-color{
     background-color: var(--main-color);
@@ -88,7 +88,7 @@
     font-size: 1.5rem;
 }
 .lg{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .xl{
     font-size: 3rem;
