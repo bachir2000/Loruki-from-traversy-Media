@@ -98,7 +98,11 @@ body{
     width: 400px;
     padding: 40px;
     z-index: 100;
+    animation: slideFromRight 0.8s ease;
     
+}
+.showcase-text{
+    animation: slideFromLeft 0.8s ease;
 }
 .showcase-form .form-control{
     margin: 30px 0;
@@ -132,6 +136,7 @@ body{
 .stats{
     padding-top: 70px;
     position: relative;
+    animation: slideFromBottom 0.8s ease;
 }
 .stats-heading{
     max-width: 500px;
@@ -236,6 +241,14 @@ body{
 .features-sub-head img{
     width: 300px;
     justify-self: flex-end;
+}
+
+.features-main .card{
+    transition: 0.2s all ease;
+}
+.features-main .card:hover{
+    line-height: 2rem;
+    transform: scale(1.05);
 }
 
 .features-main .card > i{
@@ -382,5 +395,43 @@ body{
     }
     .showcase-form{
         width: 300px;
+    }
+}
+
+
+/* ___________________________________________ */
+/* Animmation */
+
+@keyframes slideFromLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slideFromRight {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slideFromTop {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromBottom {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateX(0);
     }
 }
