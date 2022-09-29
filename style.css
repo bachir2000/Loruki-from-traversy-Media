@@ -321,7 +321,7 @@ body{
  .showcase .grid{
     gap: 0;
  }
- .showcase-text,.features-text{
+ .showcase-text,.features-text,.features-head{
     text-align: center;
 }
  .showcase-form{
